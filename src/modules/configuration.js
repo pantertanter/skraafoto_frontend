@@ -5,13 +5,13 @@ const api_stac_default_test = "https://api.dataforsyningen.dk/rest/skraafoto_api
 
 let configuration = {
 
-  API_STAC_TOKEN: '', // STAC TOKEN can be aquired from https://dataforsyningen.dk/
+  API_STAC_TOKEN: 'c47b1ef9a9c7dc1d11a154d4e21739f0', // STAC TOKEN can be aquired from https://dataforsyningen.dk/
   API_STAC_BASEURL: api_stac_default_prod,
 
   API_DHM_WCS_BASEURL: "https://services.datafordeler.dk/DHMNedboer/dhm_wcs/1.0.0/WCS",
   API_DHM_BASEURL: "https://test11.dataforsyningen.dk/DHMTerraen/DHMKoter/1.0.0/GEOREST/HentKoter",
-  API_DHM_TOKENA: '', // DHM API service username can be created at https://datafordeler.dk/dataoversigt/danmarks-hoejdemodel-dhm/koter/
-  API_DHM_TOKENB: '', // DHM API service password can be created at https://datafordeler.dk/dataoversigt/danmarks-hoejdemodel-dhm/koter/
+  API_DHM_TOKENA: 'ZPTINMIQGH', // DHM API service username can be created at https://datafordeler.dk/dataoversigt/danmarks-hoejdemodel-dhm/koter/
+  API_DHM_TOKENB: 'Asdf!234', // DHM API service password can be created at https://datafordeler.dk/dataoversigt/danmarks-hoejdemodel-dhm/koter/
 
   LOCAL_STORAGE_COOKIE_KEY: 'skraafoto-cookie-allowed',
   LOCAL_STORAGE_FIRST_TIME_VISITOR_KEY: 'skraafoto-first-time-visit',

@@ -1,0 +1,28 @@
+/*
+ * THESE CONFIGURATIONS WILL BE MADE PUBLIC!
+ *
+ * These variables will be available in a Javascript for everyone to see.
+ * NO SECRET PASSWORDS HERE, PLEASE
+ */
+
+const config = {
+  
+  // STAC TOKEN can be aquired from https://dataforsyningen.dk/
+  API_STAC_TOKEN: "c47b1ef9a9c7dc1d11a154d4e21739f0",
+  API_STAC_BASEURL: "https://api.dataforsyningen.dk/rest/skraafoto_api_test/v1.0",
+
+  // DHM URL and auth can be aquired from https://datafordeler.dk/dataoversigt/danmarks-hoejdemodel-dhm/koter/
+  API_DHM_WCS_BASEURL: "https://services.datafordeler.dk/DHMNedboer/dhm_wcs/1.0.0/WCS",
+  API_DHM_BASEURL: "https://services.datafordeler.dk/DHMTerraen/DHMKoter/1.0.0/GEOREST/HentKoter",
+  API_DHM_TOKENA: "ZPTINMIQGH",
+  API_DHM_TOKENB: "Asdf!234",
+
+  // Enable selected features
+  ENABLE_VIEW_SWITCH: false,
+  ENABLE_PARCEL: false,
+  ENABLE_POINTER: false,
+  ENABLE_FOOTPRINT: false,
+  ENABLE_EXPOSURE: false,
+
+  DOWNLOAD_TYPE: 'default'
+}
